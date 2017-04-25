@@ -20,7 +20,11 @@ El comando **new** nos ayuda a crear un nuevo proyecto de sails
 
 2. Ingresar la opcion `2`
 
-3. Por defecto se puede acceder ingresando por localhost:1337 
+3. Por defecto se puede acceder ingresando por localhost:1337
+ 
+ 
+ 
+
 
 
 [Documentacion Oficial](http://sailsjs.com/documentation/reference/command-line-interface)

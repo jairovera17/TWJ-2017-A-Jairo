@@ -10,6 +10,46 @@ a [Sails](http://sailsjs.org) application
 
     sails new Aplicacion
 
+
+## Comandos Docker
+### MySql
+
+
+Este comando lista los contenedores que esta **corriendo**
+````
+>> docker ps
+````
+
+Este comando enlista los contenedores instalados
+````
+>> docker ps -a
+````
+
+Este comando inicia o detiene el contenedor. No se necesita escribir el nombre del contenedor completo
+
+````
+>> docker start micontenedor
+>> docker stop micontenedor container
+>> docker stop mi
+>> docker stop con
+````
+
+Este comando elimina el contenedor. el contenedor debe estar detenido
+````
+>> docker rm contenedor
+````
+
+
+
+````
+>> docker run --name jairo  
+````
+
+
+
+
+
+
 ##Herramientas necesarias
 
 1. Sails

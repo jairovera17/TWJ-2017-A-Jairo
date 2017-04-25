@@ -42,7 +42,10 @@ Este comando elimina el contenedor. el contenedor debe estar detenido
 
 
 ````
->> docker run --name jairo  
+>> docker run --name jairo -e 
+MYSQL_ROOT_PASSWORD=12345 -e
+MYSQL_DATABASE=jairo -e 
+MY_
 ````
 
 

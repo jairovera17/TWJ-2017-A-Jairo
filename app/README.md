@@ -68,7 +68,10 @@ MYSQL_DATABASE=jairo -e
 MY_
 ````
 
+##node modules
 
+dentro de la carpeta de la aplicacion se pone 
+> npm install
 
 ##MongoDB
 

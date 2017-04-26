@@ -70,8 +70,13 @@ MY_
 
 
 
+##MongoDB
 
 
+````
+>> docker run --name adrianmongo -p 27017:27017 -d mongo
+
+````
 
 ##Herramientas necesarias
 
@@ -93,6 +98,11 @@ MY_
 ##Referencias a enlaces
 
 [PULPOS WEB](https://google.com)
+
+
+
+
+docker run --name postgresadrian -e POSTGRES_PASSWORD=123456 -e POSTGRES_USER=adrian -e POSTGRES_DB=politecnica -p 5432:5432 -d postgres
 
 
 
